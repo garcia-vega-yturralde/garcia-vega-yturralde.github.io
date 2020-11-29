@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body{
+    background-color: white;
+    width: 70%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+nav{
+    background: #171C39;
+    width: 100%; 
+    overflow: hidden;
+}
+
+nav > h1 > a{
+    color: white;
+    float: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar{
+    list-style: none;    
+}
+
+nav > .navbar > .nav-item{
+    display: inline;
+    float: right;
+}
+
+nav > .navbar > .nav-item >a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+nav > .navbar > .nav-item >a:hover, nav > h1 > a:hover{
+    background: #171C50;
+}
+footer{
+    width: 70%;
+    padding: 50px 30px;
+    margin: 0 auto;
+    background: #171C39;
+    color: white;
+}
+.btn-tarea{
+    padding:16px 20px;
+    background: #171C39;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.btn-tarea:hover{
+    background: #171C50;
+}
+
+.btn-tarea:active{
+    background: #000;
+}
+
+.title-description,
+.text-description{
+    text-align: justify;
+    margin-top: 20px;    
+    
+}
+
+.title-description{
+    margin: 10px 20px;
+}
+
+.text-description > .text-item {
+    margin: 10px 20px;
+    list-style: disc;
+}
+
+.content-text{    
+    padding: 40px;    
+}
